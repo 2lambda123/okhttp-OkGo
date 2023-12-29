@@ -2,11 +2,11 @@
 
 ## OkGo - 3.0 震撼来袭, 一个基于okhttp的标准RESTful风格的网络框架
 
-> 工程结构全新优化  
-> 支持RxJava  
-> 支持RxJava2  
-> 支持自定义缓存策略  
-> 支持下载管理  
+> 工程结构全新优化
+> 支持RxJava
+> 支持RxJava2
+> 支持自定义缓存策略
+> 支持下载管理
 > 支持上传管理
 
 该库部分思想借鉴了以下项目：
@@ -20,12 +20,12 @@
 
 本项目中使用的图片选择是我的另一个开源项目
 
-> 完全仿微信的图片选择库，自带矩形图片裁剪和圆形图片裁剪功能，有需要的可以去下载使用。  
+> 完全仿微信的图片选择库，自带矩形图片裁剪和圆形图片裁剪功能，有需要的可以去下载使用。
 > 附上地址：[https://github.com/jeasonlzy/ImagePicker](https://github.com/jeasonlzy/ImagePicker)
 
 本项目中的九宫格控件也是我的开源项目
 
-> 类似QQ空间，微信朋友圈，微博主页等，展示图片的九宫格控件，自动根据图片的数量确定图片大小和控件大小，使用Adapter模式设置图片，对外提供接口回调，使用接口加载图片，支持任意的图片加载框架如：Glide、ImageLoader、xUtils3、Picasso 等，支持点击图片全屏预览大图。  
+> 类似QQ空间，微信朋友圈，微博主页等，展示图片的九宫格控件，自动根据图片的数量确定图片大小和控件大小，使用Adapter模式设置图片，对外提供接口回调，使用接口加载图片，支持任意的图片加载框架如：Glide、ImageLoader、xUtils3、Picasso 等，支持点击图片全屏预览大图。
 > 附上地址：[https://github.com/jeasonlzy/NineGridView](https://github.com/jeasonlzy/NineGridView)
 
 ## 联系方式
@@ -78,14 +78,14 @@ Eclipse的用户(赶紧换AS吧)，可以选择添加本项目根目录中 `/jar
 
 必须使用
 
-> [okhttp-3.8.1.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okhttp-3.8.1.jar)  
-> [okio-1.13.0.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okio-1.13.0.jar)  
+> [okhttp-3.8.1.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okhttp-3.8.1.jar)
+> [okio-1.13.0.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okio-1.13.0.jar)
 > [okgo-3.0.4.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okgo-3.0.4.jar)
 
 以下三个选择添加，okrx和okrx2不能同时使用
 
-> [okrx-1.0.2.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okrx-1.0.2.jar)  
-> [okrx2-2.0.2.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okrx2-2.0.2.jar)  
+> [okrx-1.0.2.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okrx-1.0.2.jar)
+> [okrx2-2.0.2.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okrx2-2.0.2.jar)
 > [okserver-2.0.5.jar](https://raw.githubusercontent.com/jeasonlzy/okhttp-OkGo/master/jar/okserver-2.0.5.jar)
 
 ## 文档
