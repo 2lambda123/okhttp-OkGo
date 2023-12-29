@@ -103,7 +103,7 @@ public class HttpUtils {
             for (String key : params.stringParamsMap.keySet()) {
                 List<String> urlValues = params.stringParamsMap.get(key);
                 for (String value : urlValues) {
-                    bodyBuilder.add(key, value);
+                    bodyBuilder.addEncoded(key, value);
                 }
             }
             return bodyBuilder.build();
