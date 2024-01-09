@@ -1,0 +1,181 @@
+repo_name: 2lambda123/okhttp-OkGo
+report_id: 4026af60e9a317d453900aa786db4df5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:53:01+00:00'
+requested_by: 2lambda123
+provider: github
+branch: '3.1'
+detected_tools_count: 13
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo
+  detection_source: Repo Metadata
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: jeasonlzy
+  last_updated_on: 2016-01-15 10:35:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/build.gradle
+  detection_source: build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-06-28 10:55:58.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: 廖子尧
+  last_updated_on: 2017-06-12 07:32:33.000000000 Z
+- name: com.github.bumptech.glide:glide
+  description: A fast and efficient image loading library for Android focused on smooth
+    scrolling
+  version: 3.7.0
+  license: BSD-2-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-07-17 06:47:39.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-07-17 06:47:39.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.jakewharton:butterknife
+  description: Field and method binding for Android views
+  version: 7.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-07-17 06:47:39.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/okgo/build.gradle
+  detection_source: okgo/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-06-29 07:02:27.000000000 Z
+- name: com.squareup.picasso:picasso
+  description: A powerful image downloading and caching library for Android
+  version: 2.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-07-17 06:47:39.000000000 Z
+- name: io.reactivex.rxjava2:rxandroid
+  description: RxAndroid
+  version: 2.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/demo/build.gradle
+  detection_source: demo/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-06-29 07:02:27.000000000 Z
+- name: io.reactivex.rxjava2:rxjava
+  description: Reactive Extensions for Java
+  version: 2.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/okrx2/build.gradle
+  detection_source: okrx2/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-06-29 07:02:27.000000000 Z
+- name: io.reactivex:rxjava
+  description: Rxjava
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/okhttp-OkGo/blob/3.1/okrx/build.gradle
+  detection_source: okrx/build.gradle
+  last_updated_by: liaoziyao
+  last_updated_on: 2017-05-27 06:46:17.000000000 Z
